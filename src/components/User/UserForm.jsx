@@ -2,12 +2,14 @@ import React from 'react'
 import Button from '@mui/material/Button'
 import Container from '@mui/material/Container';
 
+
+
 export default props =>
    <Container>
     <div className="form">
         <div className="row">
             <div className="col-12 col-md-6">
-                <div className="form-group">
+                <div className="name">
                     <label>Nome</label>
                     <input type="text"
                         name="name"
@@ -21,8 +23,8 @@ export default props =>
                 </div>
             </div>
 
-            <div className="col-12 col-md-6">
-                <div className="form-group">
+            <div  className="col-12 col-md-6">
+                <div className="email">
                     <label>E-mail</label>
                     <input type="email"
                         name="email"
