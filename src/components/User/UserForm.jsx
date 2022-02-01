@@ -1,6 +1,9 @@
 import React from 'react'
+import Button from '@mui/material/Button'
+import Container from '@mui/material/Container';
 
 export default props =>
+   <Container>
     <div className="form">
         <div className="row">
             <div className="col-12 col-md-6">
@@ -38,13 +41,14 @@ export default props =>
 
         <div className="row">
             <div className="col-12 d-flex justify-content-end">
-                <button className="btn btn-success" onClick={props.save}>
+                <Button variant="contained" className="btn btn-success" onClick={props.save}>
                     <i className="fa fa-save mr-1"></i> Salvar
-                </button>
-                <button className="btn btn-danger ml-2" onClick={props.clear}>
+                </Button>
+                <Button variant="contained" className="btn btn-danger ml-2" onClick={props.clear}>
                     <i className="fa fa-remove mr-1"></i> Cancelar
-                </button>
+                </Button>
             </div>
         </div>
 
     </div>
+    </Container>

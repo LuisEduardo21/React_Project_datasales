@@ -69,3 +69,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 # React_Project_datasales
+Para rodar o projeto.
+Rodar os comandos:
+Npm install
+Json-server -p 3001 db.json
+Npm start
+Usuario: admin
+Senha: admin
