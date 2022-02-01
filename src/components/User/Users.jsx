@@ -16,7 +16,7 @@ const headerProps = {
     subtitle: 'Cadastro de Usuários: Incluir, Listar, Alterar e Excluir'
 }
 
-const baseUrl = 'http://localhost:3000/users'
+const baseUrl = 'http://localhost:3001/users'
 
 const initialState = {
     user: {
